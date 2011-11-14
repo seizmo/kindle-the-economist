@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
+    <head>
+        <title>Table of Contents</title>
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+        <link href="economist.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+<a name="start" />
+<a name="toc" />
+<h3>Contents</h3>
+<% @issue.sections.each do |section| %>
+      <h4><%= section.title %></h4>
+      <ul>
+      <% section.articles.each do |article| %>
+        <li><a id="<%= article.id %>" href="<%= article_path(article) %>"><%= article.title_with_topic %></a></li>
+      <% end %>
+      </ul>
+      <p>&nbsp;</p>
+<% end %>
+
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="dcidid" 
+   version="2.0">
+
+   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:dcterms="http://purl.org/dc/terms/"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:opf="http://www.idpf.org/2007/opf">
+      <dc:title id="title"><%= @issue.title_with_publication %></dc:title>
+      <dc:language xsi:type="dcterms:RFC3066">en</dc:language>
+      <dc:identifier id="dcidid" opf:scheme="URI">
+         http://seizmo.org/economist2kindle/issue/<%= @issue.id %>
+      </dc:identifier>
+      <dc:publisher><%= @issue.publisher %></dc:publisher>
+	  <meta name="cover" content="cover-image" />
+   </metadata>
+
+   <manifest>
+      <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+      <item id="css" href="economist.css" media-type="text/css" />
+      <item id="cover-image" href="images/cover.jpg" media-type="image/jpeg" />
+<!--      <item id="cover" href="content/cover.html" media-type="application/xhtml+xml" /> -->
+      <item id="contents" href="toc.html" media-type="application/xhtml+xml" />
+<% item_ids = [] %>
+<% @issue.sections.each do |section| %>
+      <!--  Section <%= section.title %> -->
+      <% section.articles.each do |article| %>
+
+      <% if !item_ids.include? article.id %>
+        <% item_ids << article.id  %>
+        <item id="<%= article.id %>" href="<%= article_path(article) %>" media-type="application/xhtml+xml" />
+      <% end %>
+
+
+
+        <% article.images.each do |image| %>
+          <% if !item_ids.include? image.id %>
+            <% item_ids << image.id  %>
+            <item id="<%= image.id %>" href="<%= image_path(image) %>" media-type="<%= image.content_type %>"/>
+          <% end %>
+        <% end %>
+      <% end %>
+<% end %>
+   </manifest>
+
+   <spine toc="ncx">
+      <itemref idref="contents" />
+   <% @issue.articles.each do |article| %>
+      <itemref idref="<%= article.id %>" />
+   <% end %>
+   </spine>
+   <guide>
+      <reference type="toc" title="Table of Contents" href="toc.html" />
+    </guide>
+</package>
