@@ -1,0 +1,505 @@
+<?xml version="1.0"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+   "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+
+   <head>
+      <meta name="dtb:uid" content="http://seizmo.org/economist2kindle/issue/2011-11-12"/>
+      <meta name="dtb:depth" content="1"/>
+      <meta name="dtb:totalPageCount" content="0"/>
+      <meta name="dtb:maxPageNumber" content="0"/>
+   </head>
+
+   <docTitle>
+      <text>The Economist (Issue 2011-11-12): That’s all, folks</text>
+   </docTitle>
+
+   <navMap>
+
+
+      <navPoint id="toc" playOrder="1">
+         <navLabel>
+            <text>Table of Contents</text>
+         </navLabel>
+         <content src="toc.html"/>
+      </navPoint>
+     <navPoint id="article21538211" playOrder="2">
+         <navLabel>
+            <text>Politics this week</text>
+         </navLabel>
+         <content src="article21538211.html"/>
+      </navPoint><navPoint id="article21538210" playOrder="3">
+         <navLabel>
+            <text>Business this week</text>
+         </navLabel>
+         <content src="article21538210.html"/>
+      </navPoint><navPoint id="article21538223" playOrder="4">
+         <navLabel>
+            <text>KAL's cartoon</text>
+         </navLabel>
+         <content src="article21538223.html"/>
+      </navPoint><navPoint id="article21538161" playOrder="5">
+         <navLabel>
+            <text>Italy and the euro zone: That’s all, folks</text>
+         </navLabel>
+         <content src="article21538161.html"/>
+      </navPoint><navPoint id="article21538150" playOrder="6">
+         <navLabel>
+            <text>America’s deficit: Large it up</text>
+         </navLabel>
+         <content src="article21538150.html"/>
+      </navPoint><navPoint id="article21538149" playOrder="7">
+         <navLabel>
+            <text>Airline alliances: Open the skies</text>
+         </navLabel>
+         <content src="article21538149.html"/>
+      </navPoint><navPoint id="article21538146" playOrder="8">
+         <navLabel>
+            <text>Conflict in the Middle East: Nuclear Iran, anxious Israel</text>
+         </navLabel>
+         <content src="article21538146.html"/>
+      </navPoint><navPoint id="article21538151" playOrder="9">
+         <navLabel>
+            <text>Elected mayors: Big cities, small plans</text>
+         </navLabel>
+         <content src="article21538151.html"/>
+      </navPoint><navPoint id="article21538094" playOrder="10">
+         <navLabel>
+            <text>On population growth, the Nobel peace prize, business in India, Edward Lear, Chinese texts, weather and economics, blondes, mind-reading</text>
+         </navLabel>
+         <content src="article21538094.html"/>
+      </navPoint><navPoint id="article21538180" playOrder="11">
+         <navLabel>
+            <text>The Italian crisis: Addio, Silvio</text>
+         </navLabel>
+         <content src="article21538180.html"/>
+      </navPoint><navPoint id="article21538195" playOrder="12">
+         <navLabel>
+            <text>Europe’s debt crisis: Rushing for the exits</text>
+         </navLabel>
+         <content src="article21538195.html"/>
+      </navPoint><navPoint id="article21538178" playOrder="13">
+         <navLabel>
+            <text>Italy’s economy: That sinking feeling</text>
+         </navLabel>
+         <content src="article21538178.html"/>
+      </navPoint><navPoint id="article21538163" playOrder="14">
+         <navLabel>
+            <text>The politics of the South: Hunting for votes</text>
+         </navLabel>
+         <content src="article21538163.html"/>
+      </navPoint><navPoint id="article21538188" playOrder="15">
+         <navLabel>
+            <text>Ohio’s referendum: A black eye in the Buckeye</text>
+         </navLabel>
+         <content src="article21538188.html"/>
+      </navPoint><navPoint id="article21538189" playOrder="16">
+         <navLabel>
+            <text>The deficit supercommittee: Hints of a deal or a false dawn?</text>
+         </navLabel>
+         <content src="article21538189.html"/>
+      </navPoint><navPoint id="article21538186" playOrder="17">
+         <navLabel>
+            <text>Taxing Christmas trees</text>
+         </navLabel>
+         <content src="article21538186.html"/>
+      </navPoint><navPoint id="article21538192" playOrder="18">
+         <navLabel>
+            <text>Philadelphia’s mayor: Michael, more</text>
+         </navLabel>
+         <content src="article21538192.html"/>
+      </navPoint><navPoint id="article21538197" playOrder="19">
+         <navLabel>
+            <text>Herman Cain’s accusers: Anonymous no longer</text>
+         </navLabel>
+         <content src="article21538197.html"/>
+      </navPoint><navPoint id="article21538196" playOrder="20">
+         <navLabel>
+            <text>Water in Texas: The thirsty road ahead</text>
+         </navLabel>
+         <content src="article21538196.html"/>
+      </navPoint><navPoint id="article21538201" playOrder="21">
+         <navLabel>
+            <text>California’s public pensions: Not so retiring</text>
+         </navLabel>
+         <content src="article21538201.html"/>
+      </navPoint><navPoint id="article21538168" playOrder="22">
+         <navLabel>
+            <text>Lexington: The elusive progressive majority</text>
+         </navLabel>
+         <content src="article21538168.html"/>
+      </navPoint><navPoint id="article21538205" playOrder="23">
+         <navLabel>
+            <text>Security in Colombia: Top dog down</text>
+         </navLabel>
+         <content src="article21538205.html"/>
+      </navPoint><navPoint id="article21538202" playOrder="24">
+         <navLabel>
+            <text>Business in Cuba: A risky venture</text>
+         </navLabel>
+         <content src="article21538202.html"/>
+      </navPoint><navPoint id="article21538198" playOrder="25">
+         <navLabel>
+            <text>Human rights in Mexico: Friendly fire</text>
+         </navLabel>
+         <content src="article21538198.html"/>
+      </navPoint><navPoint id="article21538175" playOrder="26">
+         <navLabel>
+            <text>Correction: Brazil's oil</text>
+         </navLabel>
+         <content src="article21538175.html"/>
+      </navPoint><navPoint id="article21538173" playOrder="27">
+         <navLabel>
+            <text>China’s restive Tibetan regions: No mercy</text>
+         </navLabel>
+         <content src="article21538173.html"/>
+      </navPoint><navPoint id="article21538200" playOrder="28">
+         <navLabel>
+            <text>Pakistan and the rise of Imran Khan: Second coming</text>
+         </navLabel>
+         <content src="article21538200.html"/>
+      </navPoint><navPoint id="article21538215" playOrder="29">
+         <navLabel>
+            <text>Afghanistan and the Taliban: Collateral damage</text>
+         </navLabel>
+         <content src="article21538215.html"/>
+      </navPoint><navPoint id="article21538214" playOrder="30">
+         <navLabel>
+            <text>Asia-Pacific trade initiatives: Dreams and realities</text>
+         </navLabel>
+         <content src="article21538214.html"/>
+      </navPoint><navPoint id="article21538218" playOrder="31">
+         <navLabel>
+            <text>South-East Asian summitry: The happening place</text>
+         </navLabel>
+         <content src="article21538218.html"/>
+      </navPoint><navPoint id="article21538158" playOrder="32">
+         <navLabel>
+            <text>Banyan: One dam thing after another</text>
+         </navLabel>
+         <content src="article21538158.html"/>
+      </navPoint><navPoint id="article21538177" playOrder="33">
+         <navLabel>
+            <text>Israel squares up to Iran: That’s right, Iceman. I am dangerous</text>
+         </navLabel>
+         <content src="article21538177.html"/>
+      </navPoint><navPoint id="article21538208" playOrder="34">
+         <navLabel>
+            <text>Libya and its allies: All too friendly</text>
+         </navLabel>
+         <content src="article21538208.html"/>
+      </navPoint><navPoint id="article21538199" playOrder="35">
+         <navLabel>
+            <text>Chad, Mali and Niger: Just deserts</text>
+         </navLabel>
+         <content src="article21538199.html"/>
+      </navPoint><navPoint id="article21538184" playOrder="36">
+         <navLabel>
+            <text>Egypt’s military leaders: Not doing well</text>
+         </navLabel>
+         <content src="article21538184.html"/>
+      </navPoint><navPoint id="article21538187" playOrder="37">
+         <navLabel>
+            <text>Africa’s amputees: Not just the winning that counts</text>
+         </navLabel>
+         <content src="article21538187.html"/>
+      </navPoint><navPoint id="article21538207" playOrder="38">
+         <navLabel>
+            <text>Nigeria’s new government: Groping forward</text>
+         </navLabel>
+         <content src="article21538207.html"/>
+      </navPoint><navPoint id="article21538183" playOrder="39">
+         <navLabel>
+            <text>Germany’s economy: A case of the sniffles</text>
+         </navLabel>
+         <content src="article21538183.html"/>
+      </navPoint><navPoint id="article21538217" playOrder="40">
+         <navLabel>
+            <text>Greece’s dysfunctional politics: Tomorrow and tomorrow</text>
+         </navLabel>
+         <content src="article21538217.html"/>
+      </navPoint><navPoint id="article21538213" playOrder="41">
+         <navLabel>
+            <text>News in the ex-Yugoslavia: Broadcasting to the Balkans</text>
+         </navLabel>
+         <content src="article21538213.html"/>
+      </navPoint><navPoint id="article21538219" playOrder="42">
+         <navLabel>
+            <text>France’s public finances: The belt-tightener-in-chief</text>
+         </navLabel>
+         <content src="article21538219.html"/>
+      </navPoint><navPoint id="article21538212" playOrder="43">
+         <navLabel>
+            <text>Azerbaijan: How to spend it</text>
+         </navLabel>
+         <content src="article21538212.html"/>
+      </navPoint><navPoint id="article21538216" playOrder="44">
+         <navLabel>
+            <text>Nagorno-Karabakh: Conflict on ice</text>
+         </navLabel>
+         <content src="article21538216.html"/>
+      </navPoint><navPoint id="article21538204" playOrder="45">
+         <navLabel>
+            <text>Charlemagne: Europe against the people?</text>
+         </navLabel>
+         <content src="article21538204.html"/>
+      </navPoint><navPoint id="article21538144" playOrder="46">
+         <navLabel>
+            <text>Reshaping local government: The mayors show</text>
+         </navLabel>
+         <content src="article21538144.html"/>
+      </navPoint><navPoint id="article21538155" playOrder="47">
+         <navLabel>
+            <text>Uncontrolled borders: Waving them in</text>
+         </navLabel>
+         <content src="article21538155.html"/>
+      </navPoint><navPoint id="article21538203" playOrder="48">
+         <navLabel>
+            <text>London 2012: Fun and games</text>
+         </navLabel>
+         <content src="article21538203.html"/>
+      </navPoint><navPoint id="article21538206" playOrder="49">
+         <navLabel>
+            <text>Toys and culture: Buy early, buy often</text>
+         </navLabel>
+         <content src="article21538206.html"/>
+      </navPoint><navPoint id="article21538147" playOrder="50">
+         <navLabel>
+            <text>Britain and human rights: Contempt of court</text>
+         </navLabel>
+         <content src="article21538147.html"/>
+      </navPoint><navPoint id="article21538148" playOrder="51">
+         <navLabel>
+            <text>Priests’ employment rights: Your service or His?</text>
+         </navLabel>
+         <content src="article21538148.html"/>
+      </navPoint><navPoint id="article21538176" playOrder="52">
+         <navLabel>
+            <text>Fertility treatment: The great egg race</text>
+         </navLabel>
+         <content src="article21538176.html"/>
+      </navPoint><navPoint id="article21538109" playOrder="53">
+         <navLabel>
+            <text>Bagehot: Why Britain has centrist politics</text>
+         </navLabel>
+         <content src="article21538109.html"/>
+      </navPoint><navPoint id="article21538103" playOrder="54">
+         <navLabel>
+            <text>International marriage: Herr and Madame, Señor and Mrs</text>
+         </navLabel>
+         <content src="article21538103.html"/>
+      </navPoint><navPoint id="article21536872" playOrder="55">
+         <navLabel>
+            <text>Staring into the abyss</text>
+         </navLabel>
+         <content src="article21536872.html"/>
+      </navPoint><navPoint id="article21536871" playOrder="56">
+         <navLabel>
+            <text>The causes: A very short history of the crisis</text>
+         </navLabel>
+         <content src="article21536871.html"/>
+      </navPoint><navPoint id="article21536865" playOrder="57">
+         <navLabel>
+            <text>Austerity: Destructive creation</text>
+         </navLabel>
+         <content src="article21536865.html"/>
+      </navPoint><navPoint id="article21536870" playOrder="58">
+         <navLabel>
+            <text>In theory</text>
+         </navLabel>
+         <content src="article21536870.html"/>
+      </navPoint><navPoint id="article21536873" playOrder="59">
+         <navLabel>
+            <text>Anti-EU backlash: Beyond the fringe</text>
+         </navLabel>
+         <content src="article21536873.html"/>
+      </navPoint><navPoint id="article21536868" playOrder="60">
+         <navLabel>
+            <text>Europe’s big two: The Nico and Angela show</text>
+         </navLabel>
+         <content src="article21536868.html"/>
+      </navPoint><navPoint id="article21536867" playOrder="61">
+         <navLabel>
+            <text>Non-members: Look at it this way</text>
+         </navLabel>
+         <content src="article21536867.html"/>
+      </navPoint><navPoint id="article21536866" playOrder="62">
+         <navLabel>
+            <text>After the crisis: Making do</text>
+         </navLabel>
+         <content src="article21536866.html"/>
+      </navPoint><navPoint id="article21538159" playOrder="63">
+         <navLabel>
+            <text>State capitalism in China: Of emperors and kings</text>
+         </navLabel>
+         <content src="article21538159.html"/>
+      </navPoint><navPoint id="article21538156" playOrder="64">
+         <navLabel>
+            <text>Shipping: Economies of scale made steel</text>
+         </navLabel>
+         <content src="article21538156.html"/>
+      </navPoint><navPoint id="article21538145" playOrder="65">
+         <navLabel>
+            <text>Diamonds: Betting on De Beers</text>
+         </navLabel>
+         <content src="article21538145.html"/>
+      </navPoint><navPoint id="article21538143" playOrder="66">
+         <navLabel>
+            <text>The Oppenheimers: Swapping gems for cash</text>
+         </navLabel>
+         <content src="article21538143.html"/>
+      </navPoint><navPoint id="article21538157" playOrder="67">
+         <navLabel>
+            <text>Sexual harassment: Nasty, but rarer</text>
+         </navLabel>
+         <content src="article21538157.html"/>
+      </navPoint><navPoint id="article21538154" playOrder="68">
+         <navLabel>
+            <text>The Olympus scandal: Big trouble in Tokyo</text>
+         </navLabel>
+         <content src="article21538154.html"/>
+      </navPoint><navPoint id="article21538152" playOrder="69">
+         <navLabel>
+            <text>Airline alliances: The airmiles-high clubs</text>
+         </navLabel>
+         <content src="article21538152.html"/>
+      </navPoint><navPoint id="article21538153" playOrder="70">
+         <navLabel>
+            <text>Dynegy: Power play</text>
+         </navLabel>
+         <content src="article21538153.html"/>
+      </navPoint><navPoint id="article21538083" playOrder="71">
+         <navLabel>
+            <text>Schumpeter: Why firms go green</text>
+         </navLabel>
+         <content src="article21538083.html"/>
+      </navPoint><navPoint id="article21538104" playOrder="72">
+         <navLabel>
+            <text>South Korea’s economy: What do you do when you reach the top?</text>
+         </navLabel>
+         <content src="article21538104.html"/>
+      </navPoint><navPoint id="article21538141" playOrder="73">
+         <navLabel>
+            <text>The euro crisis and emerging markets: Drought warning</text>
+         </navLabel>
+         <content src="article21538141.html"/>
+      </navPoint><navPoint id="article21538142" playOrder="74">
+         <navLabel>
+            <text>Buttonwood: The road to self-deception</text>
+         </navLabel>
+         <content src="article21538142.html"/>
+      </navPoint><navPoint id="article21538164" playOrder="75">
+         <navLabel>
+            <text>Too big to fail: Fright simulator</text>
+         </navLabel>
+         <content src="article21538164.html"/>
+      </navPoint><navPoint id="article21538162" playOrder="76">
+         <navLabel>
+            <text>Networking and pay: Contact sports</text>
+         </navLabel>
+         <content src="article21538162.html"/>
+      </navPoint><navPoint id="article21538099" playOrder="77">
+         <navLabel>
+            <text>Rice: Asia’s rice bowls</text>
+         </navLabel>
+         <content src="article21538099.html"/>
+      </navPoint><navPoint id="article21538098" playOrder="78">
+         <navLabel>
+            <text>Private equity: Fee high so dumb</text>
+         </navLabel>
+         <content src="article21538098.html"/>
+      </navPoint><navPoint id="article21538100" playOrder="79">
+         <navLabel>
+            <text>Economics focus: Exports to Mars</text>
+         </navLabel>
+         <content src="article21538100.html"/>
+      </navPoint><navPoint id="article21538078" playOrder="80">
+         <navLabel>
+            <text>What ate dinosaurs?: Old crocs</text>
+         </navLabel>
+         <content src="article21538078.html"/>
+      </navPoint><navPoint id="article21538079" playOrder="81">
+         <navLabel>
+            <text>Astronomy: Throwing money into space</text>
+         </navLabel>
+         <content src="article21538079.html"/>
+      </navPoint><navPoint id="article21538077" playOrder="82">
+         <navLabel>
+            <text>What dinosaurs ate: The belly of the beast</text>
+         </navLabel>
+         <content src="article21538077.html"/>
+      </navPoint><navPoint id="article21538075" playOrder="83">
+         <navLabel>
+            <text>Asteroid 2005-YU55</text>
+         </navLabel>
+         <content src="article21538075.html"/>
+      </navPoint><navPoint id="article21538076" playOrder="84">
+         <navLabel>
+            <text>The Rorschach test: A few blots in the copybook</text>
+         </navLabel>
+         <content src="article21538076.html"/>
+      </navPoint><navPoint id="article21538090" playOrder="85">
+         <navLabel>
+            <text>History of diplomacy: Dealing with the enemy</text>
+         </navLabel>
+         <content src="article21538090.html"/>
+      </navPoint><navPoint id="article21538091" playOrder="86">
+         <navLabel>
+            <text>Russia and the West: Slip and slide</text>
+         </navLabel>
+         <content src="article21538091.html"/>
+      </navPoint><navPoint id="article21538093" playOrder="87">
+         <navLabel>
+            <text>Jim Thompson: Boat against the current</text>
+         </navLabel>
+         <content src="article21538093.html"/>
+      </navPoint><navPoint id="article21538088" playOrder="88">
+         <navLabel>
+            <text>Jeffrey Sachs on America: Homeward bound</text>
+         </navLabel>
+         <content src="article21538088.html"/>
+      </navPoint><navPoint id="article21538087" playOrder="89">
+         <navLabel>
+            <text>Leonardo in London: Deciphering the da Vinci code</text>
+         </navLabel>
+         <content src="article21538087.html"/>
+      </navPoint><navPoint id="article21538089" playOrder="90">
+         <navLabel>
+            <text>American art museums: A hinterland beauty</text>
+         </navLabel>
+         <content src="article21538089.html"/>
+      </navPoint><navPoint id="article21538073" playOrder="91">
+         <navLabel>
+            <text>Philip Gould</text>
+         </navLabel>
+         <content src="article21538073.html"/>
+      </navPoint><navPoint id="article21538174" playOrder="92">
+         <navLabel>
+            <text>Output, prices and jobs</text>
+         </navLabel>
+         <content src="article21538174.html"/>
+      </navPoint><navPoint id="article21538179" playOrder="93">
+         <navLabel>
+            <text>Trade, exchange rates, budget balances and interest rates</text>
+         </navLabel>
+         <content src="article21538179.html"/>
+      </navPoint><navPoint id="article21538190" playOrder="94">
+         <navLabel>
+            <text>The Economist commodity-price index</text>
+         </navLabel>
+         <content src="article21538190.html"/>
+      </navPoint><navPoint id="article21538185" playOrder="95">
+         <navLabel>
+            <text>Global business barometer</text>
+         </navLabel>
+         <content src="article21538185.html"/>
+      </navPoint><navPoint id="article21538191" playOrder="96">
+         <navLabel>
+            <text>Markets</text>
+         </navLabel>
+         <content src="article21538191.html"/>
+      </navPoint>
+   </navMap>
+
+</ncx>
