@@ -1,2 +1,2 @@
 @ECHO OFF
-ruby ..\lib\kte.rb
+ruby ..\lib\kte.rb %*

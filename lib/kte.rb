@@ -2,16 +2,19 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'date'
-require 'mechanize'
-require 'fileutils'
-require 'open-uri'
 require 'erb'
+require 'fileutils'
+require 'mechanize'
+require 'mini_magick'
+require 'open-uri'
+require 'optparse'
+require 'pony'
+require 'progressbar'
+require 'psych'
 require 'zip/zip'
 require 'zip/zipfilesystem'
-require 'progressbar'
-require 'mini_magick'
-require 'psych'
-require 'pony'
+
+
 
 class Issue
   attr_reader :sections
@@ -470,11 +473,33 @@ class PostMan
 end
 
 
-config = Psych::parse_file(File.join('..', 'config.yml')).to_ruby
-scraper = EconomistScraper.new(config)
-issue = scraper.get_current_issue
-writer = EpubWriter.new(config)
-file = writer.write(issue)
-if config['deliver_to']
-  PostMan.new(config).send(issue, file)
+class KindleTheEconomist
+
+  def initialize
+    @config = Psych::parse_file(File.join('..', 'config.yml')).to_ruby
+    @scraper = EconomistScraper.new(@config)
+    @writer = EpubWriter.new(@config)
+    @postman = PostMan.new(@config)
+  end
+
+
+  def main
+    if ARGV.length > 0
+      ARGV.each do |arg|
+        process_issue(@scraper.get_issue(arg))
+      end
+    else
+       process_issue(@scraper.get_current_issue)
+    end
+  end
+
+  def process_issue(issue)
+    file =  @writer.write(issue)
+    if @config['deliver_to']
+      @postman.send(issue, file)
+    end
+  end
+
 end
+
+KindleTheEconomist.new.main
