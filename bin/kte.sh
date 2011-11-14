@@ -1,2 +1,3 @@
 #!/bin/sh
-ruby ../lib/kte.rb
+cd ..
+ruby lib/kte.rb

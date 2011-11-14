@@ -1,18 +1,28 @@
+# The credentials for your economist.com account.
+# You need to have a valid subscription connected
+# with this account or the tool won't work
 credentials:
-  email: "economist@m75.de"
-  password: "nEm1Ngo70kSH"
+  email: "myemail@example.com"
+  password: "XXX"
 
+# Where to save the temporary files and the
+# resulting epub and mobi files
 directories:
   tmp: "../tmp"
   issues: "../issues"
 
+# Optional: If you have the deliver_to section, the
+# epub or mobi file will be sent to the addresses
+# specified here
 deliver_to:
   - "seizmo@kindle.com"
 
+# Enter your email server data here. The config below works with
+# Gmail. YMMV.
 smtp:
-  user_name: "mgk@m75.de"
-  password: "wnftphftanmvbvqi"
+  user_name: "user@gmail.com"
+  password: "mailpassword"
   address: "smtp.gmail.com"
-  port: 587
+  port: 587 # mailserver port
   enable_starttls_auto: true
   authentication: "plain"
