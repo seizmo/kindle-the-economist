@@ -35,17 +35,13 @@ Install
 
     gem install bundler
 
-3. Install all dependencies, open a prompt in the `kindle-the-economist` directory and execute:
+3. To onstall all dependencies, open a prompt in the `kindle-the-economist` directory and execute:
 
     bundle install
 
-4. If you don't have ImageMagick yet, download and install it from here: http://www.imagemagick.org/script/binary-releases.php
+4. If you don't have ImageMagick yet, download and install (http://www.imagemagick.org/script/binary-releases.php). Make sure the ImageMagick binaries (esp. `identify` and `mogrify`) are in the path.
 
-   Make sure the ImageMagick binaries (esp. `identify` and `mogrify`) are in the path.
-
-5. You can download kindlegen free of charge here: http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000234621
-
-   Put the binary (`kindlegen` or `kindlegen.exe`) in the `./bin` directory of `kindle-the-economist`.
+5. You can download kindlegen free of charge (http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000234621). Put the binary (`kindlegen` or `kindlegen.exe`) in the `./bin` directory of `kindle-the-economist`.
 
 6. Rename `config.yml.template` to `config.yml` and change all config values appropriately. The only section strictly required
    is the "credentials" with your economist.com login information. All other sections are optional.
