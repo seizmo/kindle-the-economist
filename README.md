@@ -14,7 +14,7 @@ Requirements
 
 This is necessary to run the script:
 
-  * A valid The Economist subscriptions
+  * A valid The Economist subscription (linked with your economist.com account)
   * Ruby 1.9.1+
   * ImageMagick
 
