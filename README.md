@@ -18,7 +18,7 @@ This is necessary to run the script:
   * Ruby 1.9.1+
   * ImageMagick
 
-If you want your files to be converted to Kindle-combatible mobi files:
+If you want your files to be converted to Kindle-compatible mobi files:
 
   * kindlegen
 
@@ -40,9 +40,11 @@ Install
     bundle install
 
 4. If you don't have ImageMagick yet, download and install it from here: http://www.imagemagick.org/script/binary-releases.php
+
    Make sure the ImageMagick binaries (esp. `identify` and `mogrify`) are in the path.
 
 5. You can download kindlegen free of charge here: http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000234621
+
    Put the binary (`kindlegen` or `kindlegen.exe`) in the `./bin` directory of `kindle-the-economist`.
 
 6. Rename `config.yml.template` to `config.yml` and change all config values appropriately. The only section strictly required
@@ -52,6 +54,7 @@ Run
 ---
 
 Windows: Execute bin/kte.bat
+
 Linux: Execute bin/kte.sh
 
 If you run the script without any arguments, the current issue is downloaded. On both platforms you may pass one or more
