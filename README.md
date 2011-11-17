@@ -22,7 +22,7 @@ If you want your files to be converted to Kindle-compatible mobi files:
 
   * kindlegen
 
-For direct delivery to you kindle:
+For direct delivery to your kindle:
 
   * SMTP server credentials
 
