@@ -287,12 +287,12 @@ end
 class EpubWriter
   def initialize(config)
     @dirs = {
-      :bin => File.join("..", "bin"),
-      :templates => File.join("..", "templates")
+      :bin => File.join(File.dirname(__FILE__), '..', "bin"),
+      :templates => File.join(File.dirname(__FILE__), '..', "templates")
     }
     if config['directories']
-      @dirs[:issues] = config['directories']['issues'] || File.join("..", "issues"),
-      @dirs[:tmp_base] = config['directories']['tmp'] || File.join("..", "tmp")
+      @dirs[:issues] = config['directories']['issues'] || File.join(File.dirname(__FILE__), "..", "issues")
+      @dirs[:tmp_base] = config['directories']['tmp'] || File.join(File.dirname(__FILE__), "..", "tmp")
     end
   end
 
@@ -476,7 +476,7 @@ end
 class KindleTheEconomist
 
   def initialize
-    @config = Psych::parse_file(File.join('..', 'config.yml')).to_ruby
+    @config = Psych::parse_file(File.join(File.dirname(__FILE__), '..', 'config.yml')).to_ruby
     @scraper = EconomistScraper.new(@config)
     @writer = EpubWriter.new(@config)
     @postman = PostMan.new(@config)
