@@ -8,8 +8,8 @@ credentials:
 # Where to save the temporary files and the
 # resulting epub and mobi files
 directories:
-  tmp: "../tmp"
-  issues: "../issues"
+  tmp: "./tmp"
+  issues: "./issues"
 
 # Optional: If you have the deliver_to section, the
 # epub or mobi file will be sent to the addresses
